@@ -8,11 +8,11 @@ addons:
 deploy:
   provider: script
   script:
-    - yarn install && yarn lint && yarn checkout && yarn ci
+    - yarn install && yarn lint && yarn checkout && yarn blog:ci
   skip_cleanup: true
 
 cache:
   npm: true
   directories:
     - ~/.cache
-    - ./public
+    - ./blog

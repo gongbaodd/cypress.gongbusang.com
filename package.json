@@ -36,11 +36,12 @@
   },
   "scripts": {
     "test": "echo \"No test needed\" && exit 0",
-    "cy:open": "cypress open",
-    "cy:test": "cypress run",
-    "start": "serve public",
-    "ci": "start-server-and-test start 5000 cy:test",
+    "blog:test": "cypress run -e TAGS='@blog'",
+    "blog:start": "serve blog",
+    "blog:ci": "start-server-and-test blog:start 5000 blog:test",
     "lint": "eslint cypress --ext=ts --fix",
-    "checkout": "sh scripts/clone_blogs.sh"
+    "checkout": "sh scripts/clone.sh",
+    "cy:test": "cypress run",
+    "cy:open": "cypress open"
   }
 }
