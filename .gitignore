@@ -105,3 +105,7 @@ dist
 
 # build files
 public/
+
+# cypress
+cypress/screenshots
+cypress/videos

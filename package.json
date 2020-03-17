@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "test for gongbaodd.github.io",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gongbaodd/cy-blog.gongbusang.com.git"
@@ -17,6 +14,28 @@
   },
   "homepage": "https://github.com/gongbaodd/cy-blog.gongbusang.com#readme",
   "devDependencies": {
-    "cypress": "^4.2.0"
+    "@cypress/webpack-preprocessor": "^4.1.3",
+    "@types/node": "^13.9.1",
+    "cypress": "^4.2.0",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "eslint": "^6.8.0",
+    "serve": "^11.3.0",
+    "start-server-and-test": "^1.10.10",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"No test needed\" && exit 0",
+    "cy:open": "cypress open",
+    "cy:test": "cypress run",
+    "start": "serve public",
+    "ci": "start-server-and-test start 5000 cy:test"
+  },
+  "dependencies": {
+    "@types/cypress-cucumber-preprocessor": "^1.14.0"
   }
 }
