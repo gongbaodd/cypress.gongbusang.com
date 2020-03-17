@@ -18,6 +18,7 @@
     "@types/node": "^13.9.1",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
+    "@types/cypress-cucumber-preprocessor": "^1.14.0",
     "cypress": "^4.2.0",
     "cypress-cucumber-preprocessor": "^2.0.1",
     "eslint": "^6.8.0",
@@ -41,8 +42,5 @@
     "ci": "start-server-and-test start 5000 cy:test",
     "lint": "eslint cypress --ext=ts --fix",
     "checkout": "sh scripts/clone_blogs.sh"
-  },
-  "dependencies": {
-    "@types/cypress-cucumber-preprocessor": "^1.14.0"
   }
 }
