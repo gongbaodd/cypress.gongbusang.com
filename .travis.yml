@@ -4,3 +4,5 @@ deploy:
   script:
     - yarn install
   skip_cleanup: true
+  on:
+    branch: master
