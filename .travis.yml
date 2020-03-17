@@ -8,7 +8,13 @@ addons:
 deploy:
   provider: script
   script:
-    - yarn install
+    - yarn install && yarn lint && yarn checkout && yarn ci
   skip_cleanup: true
   on:
     branch: master
+
+cache:
+  npm: true
+  directories:
+    - ~/.cache
+    - ./public

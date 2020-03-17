@@ -39,7 +39,8 @@
     "cy:test": "cypress run",
     "start": "serve public",
     "ci": "start-server-and-test start 5000 cy:test",
-    "lint": "eslint cypress --ext=ts --fix"
+    "lint": "eslint cypress --ext=ts --fix",
+    "checkout": "sh scripts/clone_blogs.sh"
   },
   "dependencies": {
     "@types/cypress-cucumber-preprocessor": "^1.14.0"
