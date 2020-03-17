@@ -109,3 +109,7 @@ public/
 # cypress
 cypress/screenshots
 cypress/videos
+
+# sites
+blog/
+www/

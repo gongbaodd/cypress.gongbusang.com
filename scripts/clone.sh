@@ -5,3 +5,9 @@ cd blog
 git checkout master
 cd ..
 
+# www
+rm -Rf www
+git clone https://github.com/gongbaodd/gongbushang.com.git www
+cd www
+git checkout master
+cd ..
