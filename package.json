@@ -1,0 +1,22 @@
+{
+  "name": "cy-blog.gongbusang.com",
+  "version": "1.0.0",
+  "description": "test for gongbaodd.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongbaodd/cy-blog.gongbusang.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gongbaodd/cy-blog.gongbusang.com/issues"
+  },
+  "homepage": "https://github.com/gongbaodd/cy-blog.gongbusang.com#readme",
+  "devDependencies": {
+    "cypress": "^4.2.0"
+  }
+}
