@@ -1,5 +1,4 @@
 Feature: WWW site
-    @www
     Scenario Outline: Home page
         Given I am at home page
         Then I should see title "宫不上"
@@ -13,12 +12,12 @@ Feature: WWW site
         When I clicked the button with text "g*******@qq.com"
         Then I should call mail app, to "gongbaodd@qq.com"
 
+        @www
         Examples:
             | title      | button       | site                          |
             | 我的博客   | 了解一下下   | https://blog.gongbushang.com/ |
             | 我的代码库 | 欢迎来review | https://github.com/gongbaodd  |
 
-    @www
     Scenario Outline: Contact page
         Given I am at home page
         Then I should see card with title "找我玩呀"
@@ -29,6 +28,7 @@ Feature: WWW site
         Then I click button "<button>" in the card
         And I should go to "<site>"
 
+        @www
         Examples:
             | title      | button             | site                                                    |
             | 微博       | 快关注我           | https://weibo.com/u/2312151777                          |
