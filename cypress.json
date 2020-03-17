@@ -1,4 +1,5 @@
 {
-    "baseUrl": "http://localhost:5000/",
-    "testFiles": "**/*.{feature,features}"
+  "baseUrl": "http://localhost:5000/",
+  "testFiles": "**/*.{feature,features}",
+  "video": false
 }
