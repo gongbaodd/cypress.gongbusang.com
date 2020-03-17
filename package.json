@@ -39,7 +39,7 @@
     "blog:test": "cypress run -e TAGS='@blog'",
     "blog:start": "serve blog",
     "blog:ci": "start-server-and-test blog:start 5000 blog:test",
-    "www:test": "cypress run -r TAGS='@www'",
+    "www:test": "cypress run -e TAGS='@www'",
     "www:start": "serve www",
     "www:ci": "start-server-and-test www:start 5000 www:test",
     "lint": "eslint cypress --ext=ts --fix",
