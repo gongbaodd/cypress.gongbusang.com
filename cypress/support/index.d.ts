@@ -2,6 +2,6 @@
 
 declare namespace Cypress {
   interface Chainable {
-    percySnapshot(): Chainable<Element>;
+    // percySnapshot(): Chainable<Element>;
   }
 }
