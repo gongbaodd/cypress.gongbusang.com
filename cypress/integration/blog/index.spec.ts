@@ -26,7 +26,7 @@ When(/I click the title, I go back to home/, () => {
   cy.get("@ChildPageTitle")
     .find("a")
     .click();
-  cy.wait(500);
+  cy.wait(800);
   cy.location("pathname").should(pathname => {
     expect(pathname).to.equal("/");
   });

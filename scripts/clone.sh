@@ -11,3 +11,10 @@ git clone https://github.com/gongbaodd/gongbushang.com.git www
 cd www
 git checkout master
 cd ..
+
+# graphics
+rm -Rf graphics
+git clone https://github.com/gongbaodd/webgl_demos.git graphics
+cd graphics
+git checkout master
+cd ..
