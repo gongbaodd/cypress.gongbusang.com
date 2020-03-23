@@ -1,7 +1,7 @@
 Feature: See WebGL
     @graphics
     Scenario Outline: WebGL
-        Given I am at home page
+        Given I am at welcome page
         Then I should see nav menu "<menu>"
 
         When I click the menu item
