@@ -1,3 +1,4 @@
+@www
 Feature: WWW site
     Scenario Outline: Home page
         Given I am at home page
@@ -12,7 +13,6 @@ Feature: WWW site
         When I clicked the button with text "g*******@qq.com"
         Then I should call mail app, to "gongbaodd@qq.com"
 
-        @www
         Examples:
             | title      | button       | site                          |
             | 我的博客   | 了解一下下   | https://blog.gongbushang.com/ |
@@ -28,7 +28,6 @@ Feature: WWW site
         Then I click button "<button>" in the card
         And I should go to "<site>"
 
-        @www
         Examples:
             | title      | button             | site                                                    |
             | 微博       | 快关注我           | https://weibo.com/u/2312151777                          |

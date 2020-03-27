@@ -1,5 +1,5 @@
+@blog
 Feature: Read Posts
-    @blog
     Scenario: Home
         Given I am at home page
         Then I should see title "宫不上叔"
