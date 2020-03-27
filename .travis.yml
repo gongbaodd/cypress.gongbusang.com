@@ -4,12 +4,13 @@ addons:
   apt:
     packages:
       - libgconf-2-4
-
-deploy:
-  provider: script
-  script:
-    - yarn install && yarn lint && yarn checkout && yarn blog:ci && yarn www:ci
-  skip_cleanup: true
+script:
+  - yarn lint
+  - yarn checkout
+  - yarn blog:ci
+  - yarn www:ci
+  - yarn graphics:ci
+  - yarn css:ci
 
 cache:
   npm: true
