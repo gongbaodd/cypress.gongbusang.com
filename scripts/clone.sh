@@ -18,3 +18,10 @@ git clone https://github.com/gongbaodd/webgl_demos.git graphics
 cd graphics
 git checkout master
 cd ..
+
+# css
+rm -Rf css
+git clone https://github.com/gongbaodd/css_playground.git css
+cd css
+git checkout master
+cd ..
