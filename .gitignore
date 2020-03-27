@@ -111,6 +111,7 @@ cypress/screenshots
 cypress/videos
 
 # sites
-blog/
-www/
-graphics/
+/blog/
+/www/
+/graphics/
+/css/
