@@ -9,7 +9,7 @@ Then(/I should see "(.*)" button/, (text) => {
 });
 
 Then(/I click it/, () => {
-  cy.get("@button").click();
+  cy.get("@button").click({ force: true });
 });
 
 And(/I should see the url turn to "(.*)"/, (path) => {
