@@ -8,8 +8,7 @@ Feature: See WebGL
         Then I should go to "<path>"
 
         Examples:
-            | menu               | path   |
-            | Home               | /      |
-            | Three.js - Box     | /box   |
-            | Babylon.js - Basic | /basic |
+            | menu | path |
+            | Home | /    |
+            | box  | /box |
 
