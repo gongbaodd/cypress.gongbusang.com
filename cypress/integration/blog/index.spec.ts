@@ -9,7 +9,7 @@ Then(/I should see title "(.*)"/, (value) => {
 });
 
 When(/I click the first Post/, () => {
-  cy.get("article header").first().find("a.string").click();
+  cy.get("header h3").first().find("a.string").click();
 });
 
 Then(/I go to the page with title "(.*)"/, (value) => {
