@@ -1109,10 +1109,10 @@
   resolved "https://registry.npm.taobao.org/@types/color-name/download/@types/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
 
-"@types/cypress-cucumber-preprocessor@1.14.1":
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/@types/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-1.14.1.tgz#9787f4e89553ebc6359ce157a26ad51ed14aa98b"
-  integrity sha512-CpYsiQ49UrOmadhFg0G5RkokPUmGGctD01mOWjNxFxHw5VgIRv33L2RyFHL8klaAI4HaedGN3Tcj4HTQ65hn+A==
+"@types/cypress-cucumber-preprocessor@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-4.0.0.tgz#b113e7ffb5b011d651103aae421dee5163768b42"
+  integrity sha512-M4H03hwyYXviYExzhLKBCfdX5TnvMOcVpHZoruB9mkLcKnC3aNanOk68nEM7nT9tZa+7HRBEPWxS/qzUMiiofA==
 
 "@types/json-schema@^7.0.3":
   version "7.0.4"
