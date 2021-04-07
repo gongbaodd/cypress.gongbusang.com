@@ -47,4 +47,5 @@ jobs:
         with:
           spec: cypress/integration/blog.feature
           start: yarn blog:start
+          browser: firefox
 
