@@ -2385,10 +2385,10 @@ commander@^2.20.0, commander@^2.9.0:
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
-commitizen@^4.0.4:
+commitizen@4.0.4:
   version "4.0.4"
-  resolved "https://registry.npm.taobao.org/commitizen/download/commitizen-4.0.4.tgz#60e9666e293269f459f1038ca452b39acecb8999"
-  integrity sha1-YOlmbikyafRZ8QOMpFKzms7LiZk=
+  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.0.4.tgz#60e9666e293269f459f1038ca452b39acecb8999"
+  integrity sha512-gfEt1rDE9VqKif+LE3cAThpqiW/1K3c2Nx83jSU6ohZjQd2CAmz1rMIlgmbPrPagOkKZw7USzSVubS758ZTWdA==
   dependencies:
     cachedir "2.2.0"
     cz-conventional-changelog "3.0.1"
@@ -2999,10 +2999,10 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-emoji-cz@^0.3.1:
+emoji-cz@0.3.1:
   version "0.3.1"
-  resolved "https://registry.npm.taobao.org/emoji-cz/download/emoji-cz-0.3.1.tgz#cb94835d80c4164cd467fb64252d0d62d7035def"
-  integrity sha1-y5SDXYDEFkzUZ/tkJS0NYtcDXe8=
+  resolved "https://registry.yarnpkg.com/emoji-cz/-/emoji-cz-0.3.1.tgz#cb94835d80c4164cd467fb64252d0d62d7035def"
+  integrity sha512-6HOO2YLggBlkAFIoPNmgmPczFIqeiyK4/MlnBXYJ0HDfb5pyOicPmhvq+K4yskuTY42ObRSMKJJqWWYTTE/wlg==
   dependencies:
     conventional-commit-types "^2.0.0"
     find-config "^1.0.0"
