@@ -19,7 +19,7 @@
     "@types/node": "13.13.0",
     "@typescript-eslint/eslint-plugin": "4.21.0",
     "@typescript-eslint/parser": "4.21.0",
-    "commitizen": "4.0.4",
+    "commitizen": "4.2.3",
     "cypress": "4.3.0",
     "cypress-cucumber-preprocessor": "4.0.3",
     "emoji-cz": "0.3.1",
