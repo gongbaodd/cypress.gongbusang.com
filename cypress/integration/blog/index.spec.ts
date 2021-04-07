@@ -24,12 +24,10 @@ When(/I click the title, I go back to home/, () => {
 
 
   cy.get("@ChildPageTitle").then((v: any) => {
-    cy.contains(v).click()
-  });
+    cy.contains(v).click();
 
-  cy.wait(1000);
-
-  cy.location("pathname").should((pathname) => {
-    expect(pathname).to.equal("/");
-  });
+    cy.location("pathname").should((pathname) => {
+      expect(pathname).to.equal("/");
+    });
+  });  
 });
