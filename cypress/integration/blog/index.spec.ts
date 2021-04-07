@@ -14,13 +14,21 @@ When(/I click the first Post/, () => {
 
 Then(/I go to the page with title "(.*)"/, (value) => {
   cy.wait(1000);
-  cy.contains(value).parent("h1").as("ChildPageTitle");
-  cy.wait(1000);
+  cy.contains(value).parent("h1");
+
+  cy.wrap(value).as("ChildPageTitle");
 
 });
 
 When(/I click the title, I go back to home/, () => {
-  cy.get("@ChildPageTitle").find("a").click();
+
+
+  cy.get("@ChildPageTitle").then((v: any) => {
+    cy.contains(v).click()
+  });
+
+  cy.wait(1000);
+
   cy.location("pathname").should((pathname) => {
     expect(pathname).to.equal("/");
   });
